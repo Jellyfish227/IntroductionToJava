@@ -1,2 +1,5 @@
-package com.secondTutorial;public interface Resizable {
+package com.secondTutorial;
+
+public interface Resizable {
+    void resize(int size);
 }

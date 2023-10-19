@@ -1,2 +1,5 @@
-package com.secondTutorial;public interface TaxCalculator {
+package com.secondTutorial;
+
+public interface TaxCalculator {
+    double calculateTax();
 }

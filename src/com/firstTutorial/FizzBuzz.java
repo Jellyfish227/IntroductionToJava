@@ -1,11 +1,13 @@
 package com.firstTutorial;
 
+import java.io.IOException;
+import java.io.OutputStream;
 import java.util.Scanner;
 
-public class FizzBuzz {
+public class FizzBuzz{
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        System.out.print("Number: ");
+        print("Number: ");
         int number = scanner.nextInt();
 
 
@@ -18,5 +20,9 @@ public class FizzBuzz {
         else
             System.out.println(number);
         }
+    public static void print(String prompt){
+        System.out.println(prompt);
+    }
+
 }
 

@@ -1,2 +1,9 @@
-package com.secondTutorial;public interface TaxCalculator2019 {
+package com.secondTutorial;
+
+public class TaxCalculator2019 implements TaxCalculator{
+
+    @Override
+    public double calculateTax() {
+        return 0;
+    }
 }

@@ -1,2 +1,5 @@
-package com.secondTutorial;public interface Draggable {
+package com.secondTutorial;
+
+public interface Draggable {
+    void drag();
 }
