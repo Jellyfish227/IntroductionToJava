@@ -3,7 +3,6 @@ package com.secondTutorial;
 public class Employee {
     private int baseSalary;
     private int hourlyRate;
-
     private static int numberOfEmployees;
 
     public Employee(int baseSalary) {
